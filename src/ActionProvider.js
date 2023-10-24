@@ -11,16 +11,62 @@ class ActionProvider {
     }
 
     
-    handleJavascriptList = () => {
+    handleComedyList = () => {
         const message = this.createChatBotMessage(
-          "Fantastic, I've got some recommendations for you:",
+          "Awesome! I've got some recommendations for you:",
           {
-            widget: "javascriptLinks",
-          },
+            widget: "comedyLinks",
+          }
+        );
+
+    
+        this.updateChatbotState(message);
+      };
+
+      handleDramaList = () => {
+        const message = this.createChatBotMessage(
+          "Awesome! I've got some recommendations for you:",
           {
             widget: "dramaLinks",
-          },
+          }
         );
+        
+    
+        this.updateChatbotState(message);
+      };
+
+      handleActionList = () => {
+        const message = this.createChatBotMessage(
+          "Awesome! I've got some recommendations for you:",
+          {
+            widget: "actionLinks",
+          }
+        );
+        
+    
+        this.updateChatbotState(message);
+      };
+
+      handleScifiList = () => {
+        const message = this.createChatBotMessage(
+          "Awesome! I've got some recommendations for you:",
+          {
+            widget: "scifiLinks",
+          }
+        );
+        
+    
+        this.updateChatbotState(message);
+      };
+
+      handleHorrorList = () => {
+        const message = this.createChatBotMessage(
+          "Awesome! I've got some recommendations for you:",
+          {
+            widget: "horrorLinks",
+          }
+        );
+        
     
         this.updateChatbotState(message);
       };
