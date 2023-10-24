@@ -10,7 +10,19 @@ class MessageParser {
         this.actionProvider .greet()
     }  
     if (lowerCaseMessage.includes("comedy")) {
-      this.actionProvider .handleJavascriptList();
+      this.actionProvider .handleComedyList();
+    }
+    if (lowerCaseMessage.includes("drama")) {
+      this.actionProvider .handleDramaList();
+    }
+    if (lowerCaseMessage.includes("action")) {
+      this.actionProvider .handleActionList();
+    }
+    if (lowerCaseMessage.includes("scifi")) {
+      this.actionProvider .handleScifiList();
+    }
+    if (lowerCaseMessage.includes("horror")) {
+      this.actionProvider .handleHorrorList();
     }
     }
   }
