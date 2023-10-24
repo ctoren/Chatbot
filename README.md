@@ -1,7 +1,7 @@
 # Chatbot
 TV Show Recommendation Chatbot
 
-This chatbot is called Leo the Chatbot. I created this chatbot using React and CSS. The purpose of this chatbot is to give users TV show recommendations.
+This chatbot is called Leo the Bot. I created this chatbot using React and CSS. The purpose of this chatbot is to give users TV show recommendations.
 
 
 
