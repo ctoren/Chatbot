@@ -4,13 +4,21 @@ import "./LearningOptions.css";
 const LearningOptions = (props) => {
     const options = [
         { text: "Comedy",
-         handler: props.actionProvider .handleJavascriptList, 
+         handler: props.actionProvider .handleComedyList, 
          id: 1
         },
-        { text: "Drama", handler: () => {}, id: 2},
-        { text: "Action", handler: () => {}, id: 3},
-        { text: "Sci-Fi", handler: () => {}, id: 4},
-        { text: "Horror", handler: () => {}, id: 5},
+        { text: "Drama", 
+        handler: props.actionProvider .handleDramaList,
+        id: 2},
+        { text: "Action", 
+        handler: props.actionProvider .handleActionList,
+        id: 3},
+        { text: "Sci-Fi", 
+        handler: props.actionProvider .handleScifiList,
+        id: 4},
+        { text: "Horror", 
+        handler: props.actionProvider .handleHorrorList,
+        id: 5},
     ];
 
     const optionsMarkup = options.map((option) => (
