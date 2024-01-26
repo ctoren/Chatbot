@@ -97,7 +97,7 @@ widgets: [
   },
 },
 {
-  widgetName: "horrorLinks",
+  widgetName: "thrillerLinks",
   widgetFunc: (props) => <LinkList {...props} />,
   props: {
     options: [
