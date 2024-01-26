@@ -21,7 +21,7 @@ class MessageParser {
     if (lowerCaseMessage.includes("scifi")) {
       this.actionProvider .handleScifiList();
     }
-    if (lowerCaseMessage.includes("horror")) {
+    if (lowerCaseMessage.includes("thriller")) {
       this.actionProvider .handleHorrorList();
     }
     }
