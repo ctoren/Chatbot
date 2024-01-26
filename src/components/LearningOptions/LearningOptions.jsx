@@ -16,8 +16,8 @@ const LearningOptions = (props) => {
         { text: "Sci-Fi", 
         handler: props.actionProvider .handleScifiList,
         id: 4},
-        { text: "Horror", 
-        handler: props.actionProvider .handleHorrorList,
+        { text: "Thriller", 
+        handler: props.actionProvider .handleThrillerList,
         id: 5},
     ];
 
