@@ -22,7 +22,7 @@ class MessageParser {
       this.actionProvider .handleScifiList();
     }
     if (lowerCaseMessage.includes("thriller")) {
-      this.actionProvider .handleHorrorList();
+      this.actionProvider .handleThrillerList();
     }
     }
   }
