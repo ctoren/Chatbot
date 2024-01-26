@@ -63,7 +63,7 @@ class ActionProvider {
         const message = this.createChatBotMessage(
           "Awesome! I've got some recommendations for you:",
           {
-            widget: "horrorLinks",
+            widget: "thrillerLinks",
           }
         );
         
